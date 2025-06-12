@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Nosso Momento 💞</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="mostrarData()">
+    <div class="carrossel">
+  <div class="musica" onclick="toggleMusica()">
+    <i>🎵</i> Blue - Eiffel 65
+  </div>
+  
+  <div class="container">
+    <div class="carrossel">
+      <img id="foto" src="img1.jpg" alt="Foto nossa">
+    
+      
+      <div class="botoes">
+        <button onclick="voltar()">⏮️</button>
+        <button onclick="avancar()">⏭️</button>
+      </div>
+    </div>
+    <p id="data"></p>
+    <p class="mensagem">
+      Desde o primeiro dia que eu estive com você cresci como homem<br>
+      aprendi sobre o amor e como amar, de forma minuscula te amei<br>
+      em comparação com toda a vida que você trouxe em meus olhos<br>
+      quero amar sempre mais e quanto puder irei me doar em seu bem<br>
+      minha pitoca, meu bb, a coisa mais incrivel da minha vida<br>
+    </p>
+  </div>
+  <audio id="audio" src="Blue.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
